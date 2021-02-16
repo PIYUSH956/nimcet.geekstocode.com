@@ -55,21 +55,30 @@ ul.topnav li.dropdownIcon{
 background-image: linear-gradient(to bottom right,#141e30 ,  #243b55);
 
 }
+.containers{
+    height: 400px;
+    color: #fff;
+}
 .row{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.column-1, .column-2{
+
+.column-1, .column-2, .column-3{
     text-align: center;
     padding: 10px;
 }
+
 .column-1{
     flex:1;
 }
 
 .column-2{
+    flex: 1;
+}
+.column-3{
     flex: 1;
 }
 .column-1 h2{
@@ -79,6 +88,22 @@ background-image: linear-gradient(to bottom right,#141e30 ,  #243b55);
 .column-2 p{
     color: white;
 }
+
+
+/****************** Sub Column ***************/
+
+.sub-col{
+    height: 400px;
+    background-color: bisque;
+}
+
+
+
+
+
+
+
+
 
 
 
