@@ -1,4 +1,7 @@
-
+html{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     box-sizing: border-box;
     margin: 0px;
@@ -50,19 +53,19 @@ ul.topnav li.dropdownIcon{
                               /************ Header Container ****************/
  
 .container{
-    height: 400px;
     
 background-image: linear-gradient(to bottom right,#141e30 ,  #243b55);
 
 }
 .containers{
-    height: 400px;
     color: #fff;
+    margin-bottom: 20px;
 }
 .row{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 
@@ -90,17 +93,50 @@ background-image: linear-gradient(to bottom right,#141e30 ,  #243b55);
 }
 
 
+
+
 /****************** Sub Column ***************/
 
 .sub-col{
-    height: 400px;
     background-color: bisque;
+}
+.image{
+    height: 250px;
+    
+}
+.sub-col p, h3{
+    color: black;
+}
+h3{
+    background-color: coral;
+    padding: 5px;
+
+}
+h3:hover{
+    background-color: cornsilk;
+    cursor: pointer;
+    
 }
 
 
 
 
+/************Footer****************/
 
+.footer{
+    background-color: black;
+}
+.col-1 h2{
+    color: white;
+}
+.col-1{
+    height: 150px;
+    padding: 20px;
+}
+ul{
+    list-style: none;
+    font-size: 19px;
+}
 
 
 
