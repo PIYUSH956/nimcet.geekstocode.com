@@ -170,26 +170,37 @@ text-align: center;
 
 
 /* Footer.................. */
-footer.footsy{
+
+.footer{
+    background-color: black;
+    
+}
+
+.row-footer{
+    display: flex;
     background-color: #000000;
-    padding-left: 10%;
-
+    align-items: center;
+    justify-content: center;
 
 }
-footer.footsy h1{
-color: #fff;
-font-size: 35px;
+.col-1-1,.col-1-2 h2{
+    color: white;
 }
-footer.footsy ul{
+.col-1-1{
+    flex:3;
+    
+    padding: 20px;
+}
+.col-1-2{
+   flex:1;
+    padding: 20px;
+}
+ul{
     list-style: none;
-    text-align: left;
-    padding-left: 0px;
+    font-size: 19px;
 }
-footer.footsy ul li{
-    color: #fff;
-    font-size: 22px;
 
-}
+
 
     @media screen and (max-width: 680px)
 {
@@ -234,7 +245,7 @@ ul.topnav.responsive li.dropdownIcon{
     display: block;
 }
 
-@media (max-width:700px)
+@media screen and (max-width:700px)
 {
     .icon-right,.blurb-wrapper-right{
         order: 1;
@@ -248,4 +259,12 @@ ul.topnav.responsive li.dropdownIcon{
 }
 
 
-    
+
+@media screen and (max-width:350px)
+{
+    .row-footer{
+        display: block;
+    }
+}
+
+

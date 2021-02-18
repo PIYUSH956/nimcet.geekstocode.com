@@ -125,12 +125,26 @@ h3:hover{
 
 .footer{
     background-color: black;
+    
 }
-.col-1 h2{
+
+.row-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.col-1-1,.col-1-2 h2{
     color: white;
 }
-.col-1{
+.col-1-1{
+    flex:3;
     height: 150px;
+    padding: 20px;
+}
+.col-1-2{
+flex:1;
+height: 150px;
     padding: 20px;
 }
 ul{
