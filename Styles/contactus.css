@@ -78,7 +78,6 @@ ul.topnav li.dropdownIcon{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    height: 300px;
     position: relative;
     justify-content: center;
     top: -60px;
@@ -89,7 +88,6 @@ ul.topnav li.dropdownIcon{
 .row-box .contact-us-boxes-1{
    
     width: 400px;
-    height: 400px;
     margin: 10px;
     color: black;
     background-color: white;
@@ -118,6 +116,7 @@ ul.topnav li.dropdownIcon{
 
 .footer{
     background-color: black;
+    margin-top: 70px;
     
 }
 
