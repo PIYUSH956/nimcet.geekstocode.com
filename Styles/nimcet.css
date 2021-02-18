@@ -263,9 +263,7 @@ table.eligibilty-table tr td{
     display: flex;
     justify-content: center
 }
-li,td{
-    line-height: 1.8;
-}
+
 .tables{
     overflow-x: auto;
 }
