@@ -1,5 +1,4 @@
 body{
-    line-height: 1;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -127,7 +126,7 @@ text-align: center;
     font-style: italic;
     font: medium;
     font-size: 20px;
-    line-height: 2;
+    line-height: 1;
 }
 /* Profile Section.................. */
 .profile{
