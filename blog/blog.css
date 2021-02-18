@@ -52,10 +52,8 @@ ul.topnav li.dropdownIcon{
 
                               /************ Header Container ****************/
  
-.container{
-    
+.container{   
 background-image: linear-gradient(to bottom right,#141e30 ,  #243b55);
-
 }
 .containers{
     color: #fff;
@@ -91,9 +89,6 @@ background-image: linear-gradient(to bottom right,#141e30 ,  #243b55);
 .column-2 p{
     color: white;
 }
-
-
-
 
 /****************** Sub Column ***************/
 
