@@ -199,6 +199,13 @@ ul{
     list-style: none;
     font-size: 19px;
 }
+@media screen and (max-width:350px)
+{
+    .row-footer{
+        display: block;
+    }
+}
+/*********Footer Code Ends Here***********/
 
 
 
@@ -260,11 +267,5 @@ ul.topnav.responsive li.dropdownIcon{
 
 
 
-@media screen and (max-width:350px)
-{
-    .row-footer{
-        display: block;
-    }
-}
 
 

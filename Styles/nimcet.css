@@ -118,10 +118,7 @@ ul.topnav li.dropdownIcon{
 
 /***********Customr stylr*********/
 
-/***********Customr stylr*********/
-
-
-
+/* Footer.................. */
 
 .footer{
     background-color: black;
@@ -130,6 +127,7 @@ ul.topnav li.dropdownIcon{
 
 .row-footer{
     display: flex;
+    background-color: #000000;
     align-items: center;
     justify-content: center;
 
@@ -139,18 +137,24 @@ ul.topnav li.dropdownIcon{
 }
 .col-1-1{
     flex:3;
-    height: 150px;
+    
     padding: 20px;
 }
 .col-1-2{
-flex:1;
-height: 150px;
+   flex:1;
     padding: 20px;
 }
 ul{
     list-style: none;
     font-size: 19px;
 }
+@media screen and (max-width:350px)
+{
+    .row-footer{
+        display: block;
+    }
+}
+/*********Footer Code Ends Here***********/
 
 
 
